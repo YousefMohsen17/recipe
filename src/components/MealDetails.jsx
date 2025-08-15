@@ -68,8 +68,8 @@ export default function MealDetails() {
   }
   return (
     <section className="py-10 ">
-      <div className="  ml-72  p-4 min-h-screen">
-        <div className="grid grid-cols-3 gap-8">
+      <div className=" ml-4 sm:ml-72  p-4 min-h-screen">
+        <div className="flex flex-col gap-4 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="flex flex-col  gap-4">
             <h1 className="text-6xl mb-2.5 ">{meal.strMeal}</h1>
             <img

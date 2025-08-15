@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 export default function Footer() {
   return (
-    <footer className="bg-white z-10 relative">
+    <footer className="bg-white z-[42] relative">
       <div class="container  mx-auto p-4 max-w-screen-xl flex justify-between border-b-2 border-b-gray-200 pb-5 items-center">
         <div className="flex items-center">
           <img src={logo} alt="Recipe Logo" className="w-10" />
