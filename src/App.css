@@ -1,0 +1,11 @@
+body {
+  background-color: #f4f2ee;
+  font-family: cursive;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+h1 {
+  font-family: Pacifico, cursive;
+}
